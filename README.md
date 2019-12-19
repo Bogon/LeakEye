@@ -1,5 +1,7 @@
 # LeakEye
 
+[![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+
 [![Version](https://img.shields.io/cocoapods/v/LeakEye.svg?style=flat)](http://cocoapods.org/pods/LeakEye)
 [![License](https://img.shields.io/cocoapods/l/LeakEye.svg?style=flat)](http://cocoapods.org/pods/LeakEye)
 [![Platform](https://img.shields.io/cocoapods/p/LeakEye.svg?style=flat)](http://cocoapods.org/pods/LeakEye)
@@ -8,7 +10,7 @@
 LeakEye is a memory leak monitor inspired by PLeakSniffer.
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/Bogon/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 
@@ -27,14 +29,14 @@ LeakEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LeakEye"
+pod 'LeakEye'
 ```
 
 ### Carthage
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "zixun/LeakEye"
+github 'Bogon/LeakEye'
 ```
 
 ## Usage
@@ -69,6 +71,15 @@ that's all!(就酱)
 
 ## Thanks
 Thanks for [PLeakSniffer](https://github.com/music4kid/PLeakSniffer),LeakEye is inspired by it.
+
+
+## 维护者
+
+name: Bogon
+
+email: zhangqixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
 
 ## Author
 
